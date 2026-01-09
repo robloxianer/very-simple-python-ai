@@ -6,3 +6,13 @@ IMPORTANT: this code from my own expecienre only works with python 3.11 ifyour c
 
 if you want to delete your current ai then simply delete the .pt file and rerun the program
 
+# Very Simply Python Ai Discord bot
+
+use python 3.11 for best experience youl need torch and someother stuff for this bot
+the code automaticly recognises your gpu and vram and will use cuda if avalable if not itl use cpu.
+the training data file delete everything inside it and fill it with your own or paste for german the german training data into the file.
+also you can only text wich the bot per dms.
+insert your bot token in main.py at line 20 and you should be good to go.
+training is slow at the time but as more i will improve it for better training. also it saved the ai model and loads it.
+if an user writes dm with the bot its save the user id as an txt and save all the chat data.
+
